@@ -38,7 +38,7 @@ Liquidity pools are a fundamental component of DeFi, enabling individuals to tra
 
 The constant product ensures fairness and balance in liquidity pools by maintaining the total value of assets constant before and after transactions. As assets are exchanged, the product of the amount of each asset remains unchanged, preserving equilibrium in trading.
 
-## Determining Token Value Using the Constant Product Formula \(X \times Y = K\)
+## Determining Token Value Using the Constant Product Formula (X x Y = K)
 
 In the realm of liquidity pools, the constant product formula plays a crucial role in determining token value. By understanding the relationship between assets and the constant product, individuals can assess the value of their tokens relative to other assets in the pool.
 
