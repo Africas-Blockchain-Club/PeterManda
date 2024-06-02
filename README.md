@@ -14,6 +14,8 @@ I regularly publish articles covering a wide range of topics in blockchain techn
 
 ### 2. Project Ideation for SDGs
 
+![ABC supports the Sustainable Development Goals](https://github.com/Africas-Blockchain-Club/PeterManda/blob/main/Images/the-global-goals-grid-color.png)
+
 In addition to articles, I am passionate about leveraging blockchain technology to address the United Nations' Sustainable Development Goals (SDGs). Through project ideation and collaboration, I explore innovative solutions that align with the [17 global goals](https://www.un.org/en/exhibits/page/sdgs-17-goals-transform-world#:~:text=GOAL%201%3A%20No%20Poverty%20GOAL,10%3A%20Reduced%20Inequalities%20GOAL%2011) to create a better and more sustainable world by 2030.
 
 ### Why Blockchain for SDGs?
