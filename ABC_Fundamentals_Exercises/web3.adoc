@@ -1,0 +1,24 @@
+= Web 3.0 Overview
+
+Web 3.0, also known as the decentralised web, represents the next phase of the internet, built on blockchain technology to prioritise user control, security, and transparency. Unlike Web 2.0, where data is controlled by Big Tech, Web 3.0 eliminates central authorities, enabling public accessibility and verifiability of data.
+
+== Key Examples of Web 3.0 Applications
+
+- **Decentralised Finance (DeFi):**  
+  Platforms such as _Uniswap_ and _Aave_ provide financial services like lending and trading without intermediaries.
+
+- **Non-Fungible Tokens (NFTs):**  
+  Unique digital assets, like _CryptoPunks_ and _NBA Top Shot_, redefine ownership of art, collectibles, and virtual real estate.
+
+- **Decentralised Social Networks:**  
+  Platforms such as _Mastodon_ promote user interaction without reliance on centralised authorities.
+
+- **Blockchain Domain Name Systems (DNS):**  
+  Systems like _Ethereum Name Service (ENS)_ give users complete ownership and control of domain names.
+
+- **Decentralised Autonomous Organisations (DAOs):**  
+  Entities like _MakerDAO_ operate through smart contracts, enabling transparent, autonomous governance.
+
+== The Future of Web 3.0
+
+Web 3.0 is transforming the internet into a secure, transparent, and user-driven ecosystem, fostering innovation and collaboration across various industries.
