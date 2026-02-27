@@ -201,7 +201,7 @@ AMMs have fundamentally democratised finance. Anyone with a wallet and internet 
 
 ***
 
-***Do not just use DeFi but be fluent in it as well. I highly recommend opening up a pool explorer today. Trace a live trade from input to output, and watch these mechanics click into place for yourself.***
+***Do not just use DeFi but be fluent in it as well. Open up a pool explorer. Trace a live trade from input to output, and watch these mechanics click into place for yourself.***
 
 <div align="center">⁂</div>
 
