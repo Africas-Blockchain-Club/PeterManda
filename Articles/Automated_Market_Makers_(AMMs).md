@@ -180,6 +180,10 @@ flowchart LR
 
 AMMs have fundamentally democratised finance. Anyone with a wallet and internet connection can now swap tokens, earn passive income as an LP, and participate in markets that never sleep; without permission from any bank or exchange.
 
+**DeFi Mechanism Details Overview**
+[![DeFi Mechanism Details](./images/defi_mechanisms.png)](https://docs.google.com/spreadsheets/d/1WUnrIOdnXSIs1lVBKzhXafkaBiuG1oP-Lzp_jx0uYU4/edit?usp=sharing)
+*(Click the image to view the full [DeFi Mechanism Details Google Sheet](https://docs.google.com/spreadsheets/d/1WUnrIOdnXSIs1lVBKzhXafkaBiuG1oP-Lzp_jx0uYU4/edit?usp=sharing))*
+> *Note: The sections highlighted in green identify the key areas you should focus on to make sound financial judgments and generate passive income.*
 
 | Application | Example Use | Key Benefit | Key Risk |
 | :-- | :-- | :-- | :-- |
