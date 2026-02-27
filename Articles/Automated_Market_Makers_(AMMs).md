@@ -1,4 +1,4 @@
-# Automated Market Makers (AMMs): DeFi's Always-On Financial Engine
+# Understanding Automated Market Makers (AMMs)
 
 ***
 
