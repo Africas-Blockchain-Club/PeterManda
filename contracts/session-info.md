@@ -1,4 +1,4 @@
-# Session 3 — Contract Race — Session Info
+# Session 3 - Contract Race - Session Info
 
 **Contract**: SessionFaucet  
 **Network**: Sepolia Testnet  
