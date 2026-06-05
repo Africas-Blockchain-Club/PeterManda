@@ -2,6 +2,11 @@ node_modules/
 *.Identifier
 *.DS_Store
 
+# Contract secrets and build artifacts
+contracts/.env.contracts
+contracts/cache/
+contracts/out/
+
 # Python virtual environments
 venv/
 env/

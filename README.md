@@ -1,44 +1,101 @@
-# My Web3 Journey and Blockchain Research Repository
+# Peter Manda — Blockchain Research & Education Portfolio
 
-Welcome to my all things blockchain repository! Here, I document my journey in web3 technology and my passion for researching all things blockchain-related. As an enthusiast in this field, I am committed to sharing my insights, experiences, and findings through articles and projects.
+Johannesburg, South Africa. Co-founder of OffConnectX. Lead Facilitator at WeThinkCode_. Cyfrin Updraft Ambassador.
 
-## About Me
+This repository is a working portfolio of blockchain research, on-chain data science, smart contract development, and education work — not a collection of slides and notes.
 
-I am deeply fascinated by blockchain technology and its potential to revolutionise various industries and address global challenges. My interest in blockchain extends beyond theoretical research; I actively engage in practical exploration and project ideation to harness the power of blockchain for positive social impact.
+---
 
-## What You will Find Here
+## Research Platform — Token Forensic Analysis
 
-### 1. Articles on Blockchain
+A live Streamlit dashboard that generates institutional-grade token audit reports.
 
-I regularly publish articles covering a wide range of topics in blockchain technology. From introductory guides to in-depth analyses of the latest trends and developments, my articles aim to educate and inspire others to explore the transformative potential of blockchain.
+**What it does:**
 
-### 2. Project Ideation for SDGs
+1. Pulls real-time data from DexScreener, CoinGecko, CryptoPanic, DefiLlama, and Coinglass
+2. Computes liquidity, supply, and risk metrics (Blueprint Score 0–100)
+3. Runs three competing AI models (Gemini 2.5 Flash, Llama 4 Maverick, Qwen3-32B) — saves the highest-scoring report
+4. Generates a plain-English investment brief using the Anthropic API (Claude Haiku / Sonnet)
+5. Exports any report to PDF
 
-![ABC supports the Sustainable Development Goals](https://github.com/Africas-Blockchain-Club/PeterManda/blob/main/Images/the-global-goals-grid-color.png)
+**Tech stack:** Python · Streamlit · Anthropic SDK · Google Gemini API · Groq API · Playwright
 
-In addition to articles, I am passionate about leveraging blockchain technology to address the United Nations' Sustainable Development Goals (SDGs). Through project ideation and collaboration, I explore innovative solutions that align with the [17 global goals](https://www.un.org/en/exhibits/page/sdgs-17-goals-transform-world#:~:text=GOAL%201%3A%20No%20Poverty%20GOAL,10%3A%20Reduced%20Inequalities%20GOAL%2011) to create a better and more sustainable world by 2030.
+**Run it locally:**
 
-### Why Blockchain for SDGs?
+```bash
+cd research-team
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env  # fill in your API keys
+streamlit run dashboards/app.py
+```
 
-I firmly believe that blockchain technology has the capacity to solve many of the pressing issues outlined in the SDGs. By promoting transparency, decentralisation, and trust, blockchain can facilitate more efficient and equitable solutions to complex societal challenges, ultimately contributing to the achievement of all SDGs by 2030.
+**Architecture:**
 
-### Project Structure
+```
+dashboards/app.py           ← Streamlit UI
+tools/report_generator.py   ← pipeline orchestrator (log_fn callback for live updates)
+  data_engineering/
+    fetchers.py             ← DexScreener · CoinGecko · CryptoPanic · DefiLlama · Coinglass
+    screenshot_bot.py       ← Playwright chart captures
+  data_analytics/
+    metrics.py              ← liquidity turnover · kill-switch flags
+  data_science/
+    ai_generator.py         ← multi-model competition (Gemini · Groq)
+    anthropic_analyst.py    ← plain-English brief (Haiku default · Sonnet on demand)
+blueprints/                 ← token analysis framework (v1.0)
+reports/                    ← generated audit reports (markdown + PDF)
+```
 
-The plan is to have at least one project per SDG that blockchain can solve. To facilitate collaboration and development, each project has its own subdirectory or repository. Here's how I plan for and set up a subdirectory or repo:
+---
 
-1. **Subdirectory Setup:**
-   - I create a separate directory for each SDG project within this repository.
-   - I organise each subdirectory with clear naming conventions, e.g., "SDG1_No_Poverty", "SDG2_Zero_Hunger", etc.
+## Articles
 
-2. **README Content for Subdirectories:**
-   - In the README.md file of each subdirectory, I provide a brief overview of the project idea and its alignment with the corresponding SDG.
-   - I share my research findings and insights into how blockchain technology can be leveraged to address the specific challenges outlined in the SDG.
-   - I include information about blockchain tech stacks or platforms that can be used to bring the project idea to life, along with any relevant resources or references.
+Published research and education writing:
 
-## Get Involved
+- [Automated Market Makers (AMMs)](Articles/Automated_Market_Makers_(AMMs).md) — how AMM liquidity pools work, with the constant product formula broken down for non-mathematicians
+- [Financial Literacy and DeFi](Articles/Financial_Literacy_and_DeFi.md) — why DeFi access matters in the African context
 
-If you share my passion for blockchain technology and social impact, I invite you to explore this repository, engage with the content, and join me on this exciting journey towards a brighter future powered by blockchain.
+Full writing on [Medium](https://medium.com/@petermanda) and [Substack](https://petermanda.substack.com).
 
-Feel free to reach out if you have any questions, ideas for collaboration, or suggestions for topics to explore further.
+---
 
-Let's harness the power of blockchain to build a better world together!
+## Smart Contracts
+
+Session 3 — Sepolia Testnet deployment for the WeThinkCode_ Blockchain Elective contract race.
+
+**SessionFaucet:** `0xe225F39BaD67510E1a220785dB95B7d8c434983C`  
+**Etherscan:** https://sepolia.etherscan.io/address/0xe225F39BaD67510E1a220785dB95B7d8c434983C
+
+Students interact with `StudentRequest.sol` to request testnet ETH. The facilitator approves or denies each request on-chain during the session.
+
+**Stack:** Solidity 0.8.19 · Foundry · Sepolia Testnet
+
+---
+
+## SDG Projects
+
+Blockchain project ideation aligned to the UN Sustainable Development Goals.
+
+| SDG | Project Area |
+|-----|-------------|
+| [SDG 1 — No Poverty](SDG1_No_Poverty/) | Blockchain-based financial inclusion for unbanked communities |
+| [SDG 2 — Zero Hunger](SDG2_Zero_Hunger/) | Supply chain transparency for food distribution |
+
+Each folder contains the project brief, blockchain stack rationale, and implementation notes.
+
+---
+
+## ABC Fundamentals Exercises
+
+Hands-on exercises from the Africa's Blockchain Club fundamentals track — smart contract patterns, on-chain data analysis, and DeFi protocol interactions.
+
+See [`ABC_Fundamentals_Exercises/`](ABC_Fundamentals_Exercises/).
+
+---
+
+## Contact
+
+- LinkedIn: [Peter Manda](https://www.linkedin.com/in/peter-manda)
+- X: [@PeterManda_](https://x.com/PeterManda_)
+- Email: peter@wethinkcode.co.za
