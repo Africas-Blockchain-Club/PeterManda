@@ -1,6 +1,10 @@
-# Peter Manda - Blockchain Research & Education Portfolio
+# Peter Manda - Web3 Portfolio
 
-Johannesburg, South Africa. Co-founder of OffConnectX. Lead Facilitator at WeThinkCode_. Cyfrin Updraft Ambassador.
+Johannesburg, South Africa.
+
+I facilitate the blockchain elective at WeThinkCode_, a tuition-free software engineering institute in Johannesburg. Stats SA's Q1 2026 Quarterly Labour Force Survey puts youth unemployment for ages 15-34 at 45.8%, with the 15-24 bracket at 60.9%. The cohort I work with sits inside those numbers. Most are technically capable. What they lack is access to the global market, and tooling that does not assume a Silicon Valley budget.
+
+Co-founder of OffConnectX, building offline blockchain infrastructure for rural African communities on the Lisk blockchain. Cyfrin Updraft Ambassador. Lead researcher at Africa's Blockchain Club.
 
 This repository is a working portfolio of blockchain research, on-chain data science, smart contract development, and education work. Not a collection of slides and notes.
 
@@ -67,7 +71,7 @@ Session 3 - Sepolia Testnet deployment for the WeThinkCode_ Blockchain Elective 
 **SessionFaucet:** `0xe225F39BaD67510E1a220785dB95B7d8c434983C`  
 **Etherscan:** https://sepolia.etherscan.io/address/0xe225F39BaD67510E1a220785dB95B7d8c434983C
 
-Students interact with `StudentRequest.sol` to request testnet ETH. The facilitator approves or denies each request on-chain during the session.
+Software engineering prospects interact with `StudentRequest.sol` to request testnet ETH. The facilitator approves or denies each request on-chain during the session.
 
 **Stack:** Solidity 0.8.19 · Foundry · Sepolia Testnet
 
@@ -96,6 +100,9 @@ See [`ABC_Fundamentals_Exercises/`](ABC_Fundamentals_Exercises/).
 
 ## Contact
 
-- LinkedIn: [Peter Manda](https://www.linkedin.com/in/peter-manda)
-- X: [@PeterManda_](https://x.com/PeterManda_)
+- LinkedIn: [Peter Manda](https://za.linkedin.com/in/peter-manda-72a48091)
+- X: [@LevelsENTPtyLtd](https://x.com/LevelsENTPtyLtd)
+- GitHub: [MrPeterManda](https://github.com/MrPeterManda)
+- Telegram: [petermanda](https://t.me/petermanda)
+- Discord: pmanda19_80129
 - Email: peter@wethinkcode.co.za

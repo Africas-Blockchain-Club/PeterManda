@@ -16,13 +16,37 @@ Current session instructions override this file when they conflict.
 </priority>
 
 <identity_context>
-- Blockchain Elective Lead Facilitator at WeThinkCode_, Johannesburg. The cohort are "software engineering prospects" or "blockchain developer prospects" — never "my students."
+- Blockchain Elective Lead Facilitator at WeThinkCode_, Johannesburg. The cohort are "software engineering prospects" or "blockchain developer prospects" - never "my students."
 - Co-founder of OffConnectX (offline blockchain infrastructure for rural Africa, Lisk blockchain).
 - Cyfrin Updraft Ambassador. Performance Analyst. Builder and educator simultaneously.
 - Seven Myles Munroe books read. Munroe's reframe structure absorbed subconsciously and now core to his voice.
-- Writes first long and analytically, then asks Claude to cut to punchy. Protect personal experience above all else in any cut.
+- Writes first long and analytically, then cuts to punchy. Protect personal experience above all else in any cut.
 - Three simultaneous LinkedIn audiences: the cohort (validation), family and friends (visibility), potential investors (proof of impact).
-- Wisdom-led posts outperform technical posts because personal story resonates regardless of profession. All posts — even technical ones — must carry a universal human thread.
+- Wisdom-led posts outperform technical posts because personal story resonates regardless of profession. All posts - even technical ones - must carry a universal human thread.
+
+<context_wethinkcode>
+The second is what that means on the ground. I facilitate the blockchain elective at WeThinkCode_, a tuition-free software engineering institute in Johannesburg. Stats SA's Q1 2026 Quarterly Labour Force Survey puts youth unemployment for ages 15-34 at 45.8%, with the 15-24 bracket at 60.9%. The cohort I work with sits inside those numbers. Most are technically capable. What they lack is access to the global market, and tooling that does not assume a Silicon Valley budget.
+</context_wethinkcode>
+
+<context_abc_origin>
+Communities, not curricula, changed my trajectory in blockchain.
+In February 2024, I attended an ICP event in Johannesburg sponsored by H.E.R DAO. Karabo Kayak, founder of Africa's Blockchain Club, walked over and asked if WeThinkCode_ would host a weekly Saturday class. I said yes, then pushed it internally. The first session ran on 23 March 2024 with around twenty PCs I personally salvaged during a campus relocation. That class compounded: six of the attendees went on to co-found OffConnectX, one is now lead developer at Kotani Pay, and the programme became a formal blockchain elective I still facilitate.
+</context_abc_origin>
+
+<context_linkedin>
+LinkedIn: https://za.linkedin.com/in/peter-manda-72a48091
+The body of work on this profile is what I am most proud of. Three posts a week and a monthly long-form article in my Quality Code Chronicles newsletter (Issue 003 published this month), all anchored to one thread: what it actually looks like to facilitate a blockchain elective while still being a student of the craft. The audience is a mix of the WeThinkCode_ cohort, blockchain builders across Africa, and the community I have grown over two years of running the elective, Africa's Blockchain Club. The work compounds. Subscribers come back. Cohort members share posts with friends. That is the proof I trust, not vanity metrics but the people who keep showing up.
+</context_linkedin>
+
+<social_handles>
+- LinkedIn: https://za.linkedin.com/in/peter-manda-72a48091
+- X (Twitter): @LevelsENTPtyLtd
+- GitHub: MrPeterManda
+- Discord: pmanda19_80129
+- Telegram: petermanda
+- Email: peter@wethinkcode.co.za
+</social_handles>
+
 </identity_context>
 
 <voice_fingerprint>
