@@ -6,6 +6,13 @@ node_modules/
 CLAUDE.md
 CLAUDE_CODE_PROMPT.md
 
+# Personal AI-collaboration files — real, filled-in versions stay local.
+# Public templates live alongside them as resources/*.template.md.
+resources/about-me.md
+resources/my_writing_style.md
+resources/anti-ai-writing-style.md
+resources/cant_prompt_blindly.md
+
 # Contract secrets and build artifacts
 contracts/.env.contracts
 contracts/cache/
