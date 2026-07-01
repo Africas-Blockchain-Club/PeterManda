@@ -98,6 +98,12 @@ See [`ABC_Fundamentals_Exercises/`](ABC_Fundamentals_Exercises/).
 
 ---
 
+## How I Build With AI
+
+Every project in this repository is built working alongside Claude. [`resources/`](resources/) holds the template versions of the four files that drive that collaboration: identity and voice, writing rules, anti-AI-tells, and a prompting-discipline protocol. Fork the repo, copy each `*.template.md` to its real filename, fill in your own answers, and your fork starts teaching Claude your method instead of mine.
+
+---
+
 ## Contact
 
 - LinkedIn: [Peter Manda](https://za.linkedin.com/in/peter-manda-72a48091)
