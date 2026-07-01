@@ -83,8 +83,8 @@ Blockchain project ideation aligned to the UN Sustainable Development Goals.
 
 | SDG | Project Area |
 |-----|-------------|
-| [SDG 1 - No Poverty](SDG1_No_Poverty/) | Blockchain-based financial inclusion for unbanked communities |
-| [SDG 2 - Zero Hunger](SDG2_Zero_Hunger/) | Supply chain transparency for food distribution |
+| [SDG 1 - No Poverty](sdg/SDG1_No_Poverty/) | Blockchain-based financial inclusion for unbanked communities |
+| [SDG 2 - Zero Hunger](sdg/SDG2_Zero_Hunger/) | Supply chain transparency for food distribution |
 
 Each folder contains the project brief, blockchain stack rationale, and implementation notes.
 
