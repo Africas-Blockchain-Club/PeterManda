@@ -13,6 +13,17 @@ resources/my_writing_style.md
 resources/anti-ai-writing-style.md
 resources/cant_prompt_blindly.md
 
+# research-team runtime and workspace clutter
+research-team/TASK.md
+research-team/IMPLEMENTATION_PLAN.md
+research-team/TEAM_MEMORY.md
+research-team/test_out.txt
+research-team/usage_log.txt
+research-team/valid_models.txt
+research-team/out.log
+research-team/out2.log
+research-team/out3.log
+
 # Contract secrets and build artifacts
 contracts/.env.contracts
 contracts/cache/
@@ -147,6 +158,10 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+
+# local SQLite dev databases (DATABASE_URL falls back to one of these when unset)
+*.db
+*.sqlite3
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
