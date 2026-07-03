@@ -13,6 +13,9 @@ resources/my_writing_style.md
 resources/anti-ai-writing-style.md
 resources/cant_prompt_blindly.md
 
+# Local-only working files
+*.local.md
+
 # research-team runtime and workspace clutter
 research-team/TASK.md
 research-team/IMPLEMENTATION_PLAN.md
