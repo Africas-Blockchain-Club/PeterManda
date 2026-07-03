@@ -1,4 +1,4 @@
-# Session 2 — Smart Contracts and Security
+# Session 2 - Smart Contracts and Security
 
 **Exclusive Friday Web3 & AI Workshop Series**
 **Recording:** https://youtu.be/Uy6vNMs6VRE

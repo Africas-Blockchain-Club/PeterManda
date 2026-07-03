@@ -1,4 +1,4 @@
-# Session 3 — Web3 Identity, Self-Custody Trade-offs, and AI Agents That Hold and Spend Crypto
+# Session 3 - Web3 Identity, Self-Custody Trade-offs, and AI Agents That Hold and Spend Crypto
 
 **Exclusive Friday Web3 & AI Workshop Series**
 
