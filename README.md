@@ -10,55 +10,15 @@ This repository is a working portfolio of blockchain research, on-chain data sci
 
 ---
 
-## Research Platform - Blockchain Research That Earns
+## Blockchain Research Platform
 
-A live Streamlit dashboard that researches a token and the blockchain it lives on, produces an institutional-grade forensic report, and gets paid for it in USDC before a single AI token is spent.
+Learn to read a crypto token. A Streamlit app that pulls a token's public data, runs ten rule-based risk checks, and writes a report that explains what every number means. It is educational research, not financial advice: it never rates a token or says whether to buy, sell or hold.
 
-This platform is also the protagonist of the **Exclusive Friday Web3 & AI Workshop series**: every session's topic becomes a working feature, documented after each session in [`sessions/`](sessions/) and in the [Build Journey](research-team/README.md#the-build-journey). Fork the repo and keep pulling - the next feature lands after the next Friday.
+It is the protagonist of the **Exclusive Friday Web3 & AI Workshop series**: every session's topic becomes a working feature, with lesson notes in [`sessions/`](sessions/).
 
-**What it does:**
+**Now its own repository:** [Africas-Blockchain-Club/blockchain-research-platform](https://github.com/Africas-Blockchain-Club/blockchain-research-platform). Fork it there.
 
-1. Pulls real-time data from DexScreener, CoinGecko, CryptoPanic, DeFiLlama, and CoinGlass
-2. Computes liquidity, supply, and risk metrics, with a Kill Switch checklist for structural red flags
-3. Gates report generation behind a real on-chain payment: one click connects a browser wallet, sends 1.10 USDC on Base Sepolia, and the platform verifies the transaction on-chain before generating
-4. Generates the report with any current Claude model (Haiku through Fable), following the [Blockchain Research Protocol v2.0](research-team/blueprints/blockchain-research-blueprint-v2.0.md) - two scores per report: a Blueprint Score for entry timing and a Long-Term Conviction Score for the 1-5 year chain, protocol, and token outlook
-5. Emails the finished report and payment receipt to the payer, and exports to PDF
-6. Lets returning payers sign in with their wallet - the address is the account
-
-**Tech stack:** Python · Streamlit · Anthropic SDK · SQLAlchemy · Playwright · Base Sepolia (USDC payments, EIP-1193 wallets)
-
-**Run it locally:**
-
-```bash
-cd research-team
-python3 -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env  # fill in your API keys
-streamlit run dashboards/app.py
-```
-
-**Architecture:**
-
-```
-dashboards/app.py           <- Streamlit UI + payment gate + wallet sign-in
-dashboards/wallet_pay/      <- one-click USDC payment component (plain HTML, no build step)
-dashboards/wallet_connect/  <- sign-in-with-wallet component
-payment_verifier.py         <- on-chain USDC verification (RPC first, explorer fallbacks)
-db.py                       <- payments and reports (Postgres or SQLite)
-emailer.py                  <- report + receipt delivery over SMTP
-tools/report_generator.py   <- pipeline orchestrator (free data stage, paid AI stage)
-  data_engineering/
-    fetchers.py             <- DexScreener · CoinGecko · CryptoPanic · DeFiLlama · CoinGlass
-    screenshot_bot.py       <- Playwright chart captures
-  data_analytics/
-    metrics.py              <- liquidity turnover · kill-switch flags
-  data_science/
-    ai_generator.py         <- Claude report generation (model selectable per request)
-    anthropic_analyst.py    <- plain-English investment brief
-blueprints/                 <- Blockchain Research Protocol (v2.0)
-reports/                    <- generated audit reports (markdown + PDF)
-x402/                       <- demo: an AI agent that pays for its own data
-```
+**Tech stack:** Python · Streamlit · Anthropic SDK · SQLAlchemy · Playwright · Base Sepolia (testnet USDC payment demo, EIP-1193 wallets)
 
 ---
 
