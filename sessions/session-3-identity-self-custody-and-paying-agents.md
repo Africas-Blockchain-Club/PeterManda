@@ -24,12 +24,17 @@ Both identities now live in the product, and the contrast is the lesson:
 - **The self-custody fallback.** Users without a wallet extension can pay manually from any wallet or exchange and paste a transaction hash - because self-custody has friction, and a real product plans for it.
 - **The agent seed.** `research-team/x402/` contains a mock paywall server and a wallet client that detects an HTTP 402 Payment Required response, pays it, and retries - no human in the loop. Session 6 grows this seed.
 
+> **The platform has moved.** Since 18 October 2026 the research platform lives in its own repository, [Africas-Blockchain-Club/blockchain-research-platform](https://github.com/Africas-Blockchain-Club/blockchain-research-platform). The `research-team/` paths below describe where the code sat when this session ran. The platform has since been rebuilt as an educational tool that never rates a token.
+
 Try it yourself:
 
 ```bash
-cd research-team/
+git clone https://github.com/Africas-Blockchain-Club/blockchain-research-platform.git
+cd blockchain-research-platform
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 streamlit run dashboards/app.py
-# Fetch data for a token, then click "Pay ... USDC with your wallet"
+# Set PAYMENTS_ENABLED=true in .env, fetch data for a token, then click "Pay ... USDC with your wallet"
 ```
 
 ## Where the platform stood after this session

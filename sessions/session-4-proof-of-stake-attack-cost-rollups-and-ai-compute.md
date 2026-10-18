@@ -20,12 +20,17 @@ Last session the platform started taking real payments: 1.10 USDC, about R20, pa
 - **The Attack Cost page.** A new dashboard page that prices an attack on Ethereum live: enter the total staked ETH (read it from beaconcha.in), pull the live ETH price, choose the attack (34% to stall finality, 51% to control consensus), and see the cost in US Dollars and Rand - including how many of our 1.10 USDC reports it would take to fund it. Code: the `Attack Cost` page in `research-team/dashboards/app.py`.
 - The page has a defined off state: if the price feed is down, it says so and the presenter drives the numbers by hand. The lesson survives an outage.
 
+> **The platform has moved.** Since 18 October 2026 the research platform lives in its own repository, [Africas-Blockchain-Club/blockchain-research-platform](https://github.com/Africas-Blockchain-Club/blockchain-research-platform). The `research-team/` paths below describe where the code sat when this session ran. The platform has since been rebuilt as an educational tool that never rates a token.
+
 Try it yourself:
 
 ```bash
-cd research-team/
+git clone https://github.com/Africas-Blockchain-Club/blockchain-research-platform.git
+cd blockchain-research-platform
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 streamlit run dashboards/app.py
-# Open "Attack Cost" in the sidebar
+# Open "Attack cost" in the top navigation
 ```
 
 ## Where the platform stood after this session
